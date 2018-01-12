@@ -1,0 +1,12 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"CokeGM"
+	"maps"		"1"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		// TODO: put some settings here
+	}
+}
