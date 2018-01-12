@@ -23,3 +23,22 @@ function GM:OnGamemodeLoaded()
 	
 	RunConsoleCommand("sbox_maxprops", "3")
 end
+
+--[[----------------------------------
+Settings and Stuff 
+------------------------------------]]
+
+local folders = {
+PropKillRevivified = {
+			"Settings",
+			"Stats",
+			"Logs"
+			}
+}
+
+for i=1,#folders.PropKillRevivified do
+	local a = "PropKillRevivified/" .. folders.PropKillRevivified[i]
+	if !file.IsDir(a,"DATA") then
+		file.CreateDir(a)
+	end
+end
