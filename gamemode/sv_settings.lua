@@ -1,3 +1,19 @@
+--[[ to add:
+          sv_airaccellerate 100
+          sv_MaxVelocity = 2000
+          sv_MaxAngularVelocity	= 3636
+
+Anthr4x's settings
+
+local physData = physenv.GetPerformanceSettings()
+physData.MaxVelocity = 2000
+physData.MaxAngularVelocity	= 3636
+
+physenv.SetPerformanceSettings(physData)
+
+To be integrated into files in the data folder.
+]]
+
 
 function GM:OnGamemodeLoaded()
 	RunConsoleCommand("sv_allowcslua", "1")
