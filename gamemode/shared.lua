@@ -1,6 +1,7 @@
 GM.Name         = "Propkill Revivified"
-GM.Author       = "Archie and Coke_Is_Awesome" --But
+GM.Author       = "Archie and Coke_Is_Awesome" --But credit is due to those gamemodes by Anthr4x, and Geforce.
 
-TEAM_DEATHMATCH = team.SetUp(1, "DeathMatch", Color(255, 204, 0, 255))
-TEAM_RED        = team.SetUp(2, "Red Team", Color(204, 102, 102, 255))
-TEAM_BLUE       = team.SetUp(3, "Blue team", Color(153, 153, 255, 255))
+DEATHMATCH  = team.SetUp(1, "DeathMatch",  Color(255,115,0,255))
+RED         = team.SetUp(2, "Red Team",    Color(255,0,0,255))
+GREEN       = team.SetUp(3, "Blue team",   Color(0,255,0,255))
+BLUE        = team.SetUp(3, "Blue team",   Color(0,0,255,255))
