@@ -1,1 +1,23 @@
 
+function GM:OnGamemodeLoaded()
+	RunConsoleCommand("sv_allowcslua", "1")
+	RunConsoleCommand("sv_sticktoground", "0")
+	RunConsoleCommand("sv_airaccelerate", "120")
+	RunConsoleCommand("sv_maxvelocity", "2000")
+	
+	RunConsoleCommand("sbox_godmode", "0")
+	RunConsoleCommand("sbox_maxprops", "3")
+	RunConsoleCommand("sbox_maxbuttons", "0")
+	RunConsoleCommand("sbox_maxballoons", "0")
+	RunConsoleCommand("sbox_maxdynamite", "0")
+	RunConsoleCommand("sbox_maxeffects","0")
+	RunConsoleCommand("sbox_maxemitters", "0")
+	RunConsoleCommand("sbox_maxhoverballs", "0")
+	RunConsoleCommand("sbox_maxlamps", "0")
+	RunConsoleCommand("sbox_maxlights", "0")
+	RunConsoleCommand("sbox_maxnpcs", "0")
+	RunConsoleCommand("sbox_maxragdolls", "0")
+	RunConsoleCommand("sbox_maxthrusters", "0")
+	RunConsoleCommand("sbox_maxvehicles", "0")
+	RunConsoleCommand("sbox_maxwheels", "0")
+end
